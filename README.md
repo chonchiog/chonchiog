@@ -1,6 +1,4 @@
-# Hi, I'm chonchiog 👋
-
-  ## Learning, building and having fun!
+# Learning, building and having fun!
 
   ![Metrics](./github-metrics.svg)
 

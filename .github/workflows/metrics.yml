@@ -20,12 +20,10 @@ jobs:
           base: header, repositories
           config_timezone: America/New_York
           extras_css: |
-            :root { --color-text-primary: #00ff00; --color-text-secondary: #00cc00; }
-            svg { background: #0a0a0a; }
-            .field { color: #00ff00; text-shadow: 0 0 5px #00ff00; }
-            text { fill: #00ff00; }
-            h1, h2, h3, h4 { color: #00ff00; text-shadow: 0 0 8px #00ff00; }
-            .terminal { border-color: #00ff00; box-shadow: 0 0 10px #00ff0044; }
+            svg { background: transparent; }
+            .terminal { background: #0d1117; border: 1px solid #00ff00; box-shadow: 0 0 10px #00ff0044; }
+            .terminal-text { color: #00ff00; text-shadow: 0 0 5px #00ff00; }
+            pre, code, .field { color: #00ff00; }
 
           plugin_languages: yes
           plugin_languages_limit: 6

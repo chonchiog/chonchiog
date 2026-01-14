@@ -16,13 +16,16 @@ jobs:
         with:
           token: ${{ secrets.METRICS_TOKEN }}
           user: chonchiog
-          template: classic
+          template: terminal
           base: header, repositories
           config_timezone: America/New_York
           extras_css: |
-            svg { background: #2d1b4e; }
-            .field, text { fill: #e879f9; }
-            h1, h2, h3 { color: #c084fc; }
+            :root { --color-text-primary: #00ff00; --color-text-secondary: #00cc00; }
+            svg { background: #0a0a0a; }
+            .field { color: #00ff00; text-shadow: 0 0 5px #00ff00; }
+            text { fill: #00ff00; }
+            h1, h2, h3, h4 { color: #00ff00; text-shadow: 0 0 8px #00ff00; }
+            .terminal { border-color: #00ff00; box-shadow: 0 0 10px #00ff0044; }
 
           plugin_languages: yes
           plugin_languages_limit: 6

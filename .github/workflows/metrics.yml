@@ -20,6 +20,12 @@ jobs:
           base: header, repositories
           config_timezone: America/New_York
           config_display: large
+          config_output: svg
+          extras_css: |
+            * { font-family: monospace; }
+            svg { background: #2d1b4e; }
+            .field { color: #e879f9; }
+            h1, h2, h3 { color: #c084fc; }
 
           plugin_languages: yes
           plugin_languages_limit: 6
